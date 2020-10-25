@@ -1,1 +1,209 @@
+/******* Topbar *******/
+.topbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
+}
 
+.topbar .topbar-left {
+  background-color: #fff;
+  float: left;
+  text-align: center;
+  height: 70px;
+  position: relative;
+  width: 240px;
+  z-index: 1;
+}
+
+.topbar .topbar-left .logo {
+  line-height: 70px;
+  color: #07499a;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.topbar .topbar-left .logo .logo-sm {
+  display: none;
+}
+
+.topbar .navbar-custom {
+  background-color: #ffffff;
+  border-radius: 0;
+  margin-bottom: 0;
+  padding: 0 10px 0 0;
+  margin-left: 240px;
+  min-height: 70px;
+  -webkit-box-shadow: 1px 0 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.topbar .navbar-custom .navbar-right .dropdown-toggle:after {
+  content: initial;
+}
+
+.notification-item-list {
+  max-height: 230px;
+}
+
+.navbar-custom .dropdown-menu.dropdown-menu-right {
+  -webkit-transform: none !important;
+  transform: none !important;
+  top: 100% !important;
+  right: 0 !important;
+  left: auto !important;
+}
+
+.notification-list.list-inline-item:not(:last-child) {
+  margin-right: 0;
+}
+
+.notification-list .nav-link {
+  padding: 0 15px;
+  line-height: 70px;
+  color: #495057;
+  max-height: 70px;
+}
+
+.notification-list .noti-icon {
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+.notification-list .noti-icon-badge {
+  display: inline-block;
+  position: absolute;
+  top: 16px;
+  right: 10px;
+}
+
+.notification-list .notify-item {
+  padding: 10px 20px;
+}
+
+.notification-list .notify-item .notify-icon {
+  float: left;
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.notification-list .notify-item .notify-icon i {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  line-height: 32px;
+  margin-top: 2px;
+  color: #ffffff;
+}
+
+.notification-list .notify-item .notify-details {
+  margin-bottom: 0;
+  overflow: hidden;
+  margin-left: 45px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Poppins", sans-serif;
+}
+
+.notification-list .notify-item .notify-details span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+}
+
+.notification-list .language-switch a img {
+  float: right;
+  margin-top: 3px;
+}
+
+.notification-list.show .nav-link {
+  background-color: rgba(53, 69, 88, 0.05);
+}
+
+.notification-list .nav-user img {
+  height: 36px;
+  width: 36px;
+}
+
+.notification-list .profile-dropdown {
+  width: 170px;
+}
+
+.notification-list .profile-dropdown i {
+  font-size: 17px;
+  vertical-align: middle;
+  margin-right: 5px;
+  color: #616f80;
+}
+
+.notification-list .profile-dropdown span {
+  margin-top: 5px;
+}
+
+.arrow-none:after {
+  border: none;
+  margin: 0;
+  display: none;
+}
+
+.dropdown-menu-lg {
+  width: 300px;
+}
+
+.app-search {
+  position: relative;
+  margin-top: 18px;
+}
+
+.app-search .form-control,
+.app-search .form-control:focus {
+  border: 1px solid #f0f4f7;
+  font-size: 12px;
+  height: 34px;
+  padding-left: 18px;
+  padding-right: 40px;
+  margin-right: 16px;
+  font-family: "Segoe UI";
+  /* background: #f0f4f7; */
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 30px;
+  width: 200px;
+  border: none;
+  line-height: 16px;
+  color: #979797;
+}
+
+.app-search button {
+  position: absolute;
+  top: 9px;
+  right: 26px;
+  display: block;
+  color: #9ca8b3;
+  font-size: 11px;
+  border: none;
+  background-color: transparent;
+}
+
+.button-menu-mobile {
+  border: none;
+  color: #5b7798;
+  display: inline-block;
+  height: 70px;
+  width: 60px;
+  background-color: #ffffff;
+  font-size: 24px;
+}
