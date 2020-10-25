@@ -26,7 +26,8 @@ function App() {
                      <li className="dropdown notification-list list-inline-item">
                         <div className="dropdown notification-list nav-pro-img">
                             <a className="dropdown-toggle nav-link arrow-none nav-user" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                                <img src="assets/images/users/no-img.png" alt="user" className="rounded-circle">
+                                {/* <img src="assets/images/users/no-img.png" alt="user" className="rounded-circle"> */}
+                                <img className="rounded-circle" src={require("./images/Rounded-Image.png")} alt="user" />
                             </a>
                         </div>
                     </li>
@@ -42,7 +43,7 @@ function App() {
                     <li className="d-none d-md-inline-block">
                         <form role="search" className="app-search">
                             <div className="form-group mb-0">
-                                <input type="text" className="form-control" placeholder="Search..">
+                                <input type="text" className="form-control" placeholder="Search.." />
                                 <button type="submit"><i className="fa fa-search"></i></button>
                             </div>
                         </form>
