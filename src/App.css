@@ -1,5 +1,9 @@
 .wrapper {
   background: #F7F8FA;
+  margin: 0;  
+  /* padding: auto; */
+  width: 1440px;
+  height: 1510px;
 }
 
 /******* Topbar *******/

@@ -134,63 +134,196 @@ function App() {
           <div className="content">
             <div className="container-fluid">
             <div className="row">
-          <div className="col-sm-6 col-xl-3">
-              <div className="card">
-                  <div className="card-heading p-4">
-                      <div className="mini-stat-icon float-right">
-                          <i className="mdi mdi-account-plus bg-primary  text-white"></i>
+              <div className="col-sm-6 col-xl-3">
+                  <div className="card">
+                      <div className="card-heading p-4">
+                          <div className="mini-stat-icon float-right">
+                              <i className="mdi mdi-account-plus bg-primary  text-white"></i>
+                          </div>
+                          <div>
+                              <h5 className="font-16">Daily Transaction Volume</h5>
+                          </div>
+                          <p className="text-muted mt-2 mb-0">2,342</p>
                       </div>
-                      <div>
-                          <h5 className="font-16">Daily Transaction Volume</h5>
-                      </div>
-                      <p className="text-muted mt-2 mb-0">2,342</p>
                   </div>
               </div>
-          </div>
 
-          <div className="col-sm-6 col-xl-3">
-              <div className="card">
-                  <div className="card-heading p-4">
-                      <div className="mini-stat-icon float-right">
-                          <i className="mdi mdi-thumb-up bg-success text-white"></i>
+              <div className="col-sm-6 col-xl-3">
+                  <div className="card">
+                      <div className="card-heading p-4">
+                          <div className="mini-stat-icon float-right">
+                              <i className="mdi mdi-thumb-up bg-success text-white"></i>
+                          </div>
+                          <div>
+                              <h5 className="font-16">Daily Transaction Value</h5>
+                          </div>
+                          
+                          <p className="text-muted mt-2 mb-0">N4,000,000</p>
                       </div>
-                      <div>
-                          <h5 className="font-16">Daily Transaction Value</h5>
-                      </div>
-                      
-                      <p className="text-muted mt-2 mb-0">N4,000,000</p>
                   </div>
               </div>
-          </div>
 
-          <div className="col-sm-6 col-xl-3">
-              <div className="card">
-                  <div className="card-heading p-4">
-                      <div className="mini-stat-icon float-right">
-                          <i className="mdi mdi-phone-missed bg-warning text-white"></i>
+              <div className="col-sm-6 col-xl-3">
+                  <div className="card">
+                      <div className="card-heading p-4">
+                          <div className="mini-stat-icon float-right">
+                              <i className="mdi mdi-phone-missed bg-warning text-white"></i>
+                          </div>
+                          <div>
+                              <h5 className="font-16">Total Transaction Volume</h5>
+                          </div>
+                          <p className="text-muted mt-2 mb-0">452,000</p>
                       </div>
-                      <div>
-                          <h5 className="font-16">Total Transaction Volume</h5>
-                      </div>
-                      <p className="text-muted mt-2 mb-0">452,000</p>
                   </div>
               </div>
-          </div>
 
-          <div className="col-sm-6 col-xl-3">
-              <div className="card">
-                  <div className="card-heading p-4">
-                      <div className="mini-stat-icon float-right">
-                          <i className="mdi mdi-calendar-check bg-danger text-white"></i>
+              <div className="col-sm-6 col-xl-3">
+                  <div className="card">
+                      <div className="card-heading p-4">
+                          <div className="mini-stat-icon float-right">
+                              <i className="mdi mdi-calendar-check bg-danger text-white"></i>
+                          </div>
+                          <div>
+                              <h5 className="font-16">Total Transaction Value</h5>
+                          </div>
+                          <p className="text-muted mt-2 mb-0">N4,000,000</p>
                       </div>
-                      <div>
-                          <h5 className="font-16">Total Transaction Value</h5>
-                      </div>
-                      <p className="text-muted mt-2 mb-0">N4,000,000</p>
                   </div>
               </div>
-          </div>
-        </div>
+            </div>
+      
+            <div class="page-title-box">
+              <div class="row align-items-center">
+                <div class="col-sm-6">
+                  <h4 class="page-title">Payments</h4>
+                </div>
+              </div>
+              {/* <!-- end row --> */}
+            </div>
+
+            {/* <!-- START ROW --> */}
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="card m-b-30">
+                                <div class="card-body">
+                                    <h4 class="mt-0 header-title mb-4">My Lead</h4>
+                                    
+                                    <div class="table-responsive">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">S/N</th>
+                                                    <th scope="col">Lead Details</th>
+                                                    <th scope="col">Product</th>
+                                                    <th scope="col">Deal Status</th>
+                                                    <th scope="col">Comments and Next Action Date</th>
+                                                    <th scope="col">Actions</th>
+                                                    <th scope="col" colspan="2"></th>
+
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Philip Smead</td>
+                                                    <td><p>SLC 2020</p><p>9,420,000</p></td>
+                                                    <td><span class="badge badge-info">Invoice sent</span></td>
+                                                    
+                                                    <td>
+                                                        <p>Paid completely for Academy training</p>
+                                                        <p>Next follow up:</p>
+                                                    </td>
+                                                    <td>15/1/2018</td>
+
+                                                    <td>
+                                                        <div>
+                                                            <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Brent Shipley</td>
+                                                    <td><p>SLC 2020 Past Videos</p><p>9,420,000</p></td>
+                                                    <td><span class="badge badge-warning">Pending</span></td>
+                                                    
+                                                    <td>
+                                                        <p>On pipeline of purchasing</p>
+                                                        <p>Next follow up:</p>
+                                                    </td>
+                                                    <td>15/1/2018</td>
+
+                                                    <td>
+                                                        <div>
+                                                            <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Hannah Okwulem</td>
+                                                    <td><p>SLC 2020 Past Videos</p><p>9,420,000</p></td>
+                                                    <td><span class="badge badge-secondary">Negotiation</span></td>
+                                                    
+                                                    <td>
+                                                        <p>On pipeline of purchasing</p>
+                                                        <p>Next follow up:</p>
+                                                    </td>
+                                                    <td>15/1/2018</td>
+
+                                                    <td>
+                                                        <div>
+                                                            <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Johnson Inya</td>
+                                                    <td><p>SLC 2020 Past Videos</p><p>9,420,000</p></td>
+                                                    <td><span class="badge badge-danger">Cancel</span></td>
+                                                    
+                                                    <td>
+                                                        <p>On pipeline of purchasing</p>
+                                                        <p>Next follow up:</p>
+                                                    </td>
+                                                    <td>15/1/2018</td>
+
+                                                    <td>
+                                                        <div>
+                                                            <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                                        </div>
+                                                    </td> 
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>Vivian Onyinyechi</td>
+                                                    <td><p>SLC 2020 Past Videos</p><p>9,420,000</p></td>
+                                                    <td><span class="badge badge-success">Closed</span></td>
+                                                    
+                                                    <td>
+                                                        <p>On pipeline of purchasing</p>
+                                                        <p>Next follow up:</p>
+                                                    </td>
+                                                    <td>15/1/2018</td>
+
+                                                    <td>
+                                                        <div>
+                                                            <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    {/* <!-- END ROW --> */}
+
             </div>
           </div>
         </div>
