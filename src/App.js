@@ -76,7 +76,7 @@ function App() {
                         <li>
                             <a href="index.html" className="waves-effect">
                             <FaTachometerAlt className="R-icon" />
-                            <span> Dashboard </span>
+                            <span> Overview </span>
                             </a>
                         </li>
 
@@ -89,23 +89,23 @@ function App() {
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-chart-line"></i><span> My Tasks <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span></a>
+                            <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-chart-line"></i><span> Reconciled Payments <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span></a>
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-clipboard-check"></i> <span> Deals <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span> </a>
+                            <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-clipboard-check"></i> <span> Un - Reconcilled Payments <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span> </a>
                             
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-account-group"></i> <span> Users <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span> </a>
+                            <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-account-group"></i> <span> Manual Settlement <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span> </a>
                             
                         </li>
 
                         <li className="menu-title">Orders</li>
 
                         <li>
-                            <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-package-variant"></i> <span> Products <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span> </a>
+                            <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-package-variant"></i> <span> All Orders <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span> </a>
                             
                         </li>
 
