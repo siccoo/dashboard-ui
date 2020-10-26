@@ -377,3 +377,37 @@
   line-height: 48px;
   color: #262626;
 }
+
+
+/******* TABLE *******/
+
+.table-responsive {
+  border: none !important;
+}
+
+.table td, .table th {
+  padding: .75rem;
+  vertical-align: top;
+  /* border-top: 1px solid #dee2e6; */
+}
+
+/* == Responsive Table ==*/
+table.focus-on tbody tr.focused th {
+  background-color: #30419b;
+  color: #ffffff;
+}
+
+table.focus-on tbody tr.focused td {
+  background-color: #30419b;
+  color: #ffffff;
+}
+
+span .green {
+  border: 1px solid #CCCFD4;
+  box-sizing: border-box;
+  border-radius: 30px;
+  color: #27AE60;
+  font-family: Segoe UI;
+  font-size: 12px;
+  line-height: 14px;
+}

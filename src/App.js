@@ -6,6 +6,8 @@ import './App.css';
 
 import { IoIosSearch } from "react-icons/io";
 import { FaTachometerAlt } from "react-icons/fa"
+import { FaChevronDown } from "react-icons/fa"
+
 
 function App() {
   return (
@@ -158,7 +160,7 @@ function App() {
                               <h5 className="font-16">Daily Transaction Value</h5>
                           </div>
                           
-                          <p className="text-muted mt-2 mb-0">N4,000,000</p>
+                          <p className="text-muted mt-2 mb-0">₦4,000,000</p>
                       </div>
                   </div>
               </div>
@@ -186,138 +188,74 @@ function App() {
                           <div>
                               <h5 className="font-16">Total Transaction Value</h5>
                           </div>
-                          <p className="text-muted mt-2 mb-0">N4,000,000</p>
+                          <p className="text-muted mt-2 mb-0">₦4,000,000</p>
                       </div>
                   </div>
               </div>
             </div>
       
-            <div class="page-title-box">
-              <div class="row align-items-center">
-                <div class="col-sm-6">
-                  <h4 class="page-title">Payments</h4>
+            <div className="page-title-box">
+              <div className="row align-items-center">
+                <div className="col-sm-6">
+                  <h4 className="page-title">Payments</h4>
                 </div>
               </div>
               {/* <!-- end row --> */}
             </div>
 
             {/* <!-- START ROW --> */}
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="card m-b-30">
-                                <div class="card-body">
-                                    <h4 class="mt-0 header-title mb-4">My Lead</h4>
+                    <div className="row">
+                        <div className="col-xl-12">
+                            <div className="card m-b-30">
+                                {/* <div className="card-body"> */}
+                                    {/* <h4 className="mt-0 header-title mb-4">My Lead</h4> */}
                                     
-                                    <div class="table-responsive">
-                                        <table class="table table-hover">
-                                            <thead>
+                                    <div className="table-responsive">
+                                        <table className="table table-hover">
+                                            <thead className="">
                                                 <tr>
-                                                    <th scope="col">S/N</th>
-                                                    <th scope="col">Lead Details</th>
-                                                    <th scope="col">Product</th>
-                                                    <th scope="col">Deal Status</th>
-                                                    <th scope="col">Comments and Next Action Date</th>
-                                                    <th scope="col">Actions</th>
+                                                    <th scope="col">Item Type</th>
+                                                    <th scope="col">Price</th>
+                                                    <th scope="col">Transaction No</th>
+                                                    <th scope="col">Time</th>
+                                                    <th scope="col"></th>
                                                     <th scope="col" colspan="2"></th>
 
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>1</td>
-                                                    <td>Philip Smead</td>
-                                                    <td><p>SLC 2020</p><p>9,420,000</p></td>
-                                                    <td><span class="badge badge-info">Invoice sent</span></td>
+                                                    <td>
+                                                        {/* <p>Paid completely for Academy training</p> */}
+                                                        <p>Apple Mac Book 15” 250 SSD 12GB</p>
+                                                    </td>
+                                                    <td>
+                                                      $73430
+                                                    </td>
+                                                    <td>
+                                                      <span className="green">Invoice sent</span>
+                                                    </td>
+                                                    <td>
+                                                      12:30
+                                                    </td>
                                                     
                                                     <td>
-                                                        <p>Paid completely for Academy training</p>
-                                                        <p>Next follow up:</p>
+                                                        
                                                     </td>
-                                                    <td>15/1/2018</td>
 
                                                     <td>
                                                         <div>
-                                                            <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                                                          <FaChevronDown className="payment-table" />
+                                                            {/* <a href="#" className="btn btn-primary btn-sm">Edit</a> */}
                                                         </div>
                                                     </td>
                                                 </tr>
-                                                <tr>
-                                                    <td>2</td>
-                                                    <td>Brent Shipley</td>
-                                                    <td><p>SLC 2020 Past Videos</p><p>9,420,000</p></td>
-                                                    <td><span class="badge badge-warning">Pending</span></td>
-                                                    
-                                                    <td>
-                                                        <p>On pipeline of purchasing</p>
-                                                        <p>Next follow up:</p>
-                                                    </td>
-                                                    <td>15/1/2018</td>
-
-                                                    <td>
-                                                        <div>
-                                                            <a href="#" class="btn btn-primary btn-sm">Edit</a>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3</td>
-                                                    <td>Hannah Okwulem</td>
-                                                    <td><p>SLC 2020 Past Videos</p><p>9,420,000</p></td>
-                                                    <td><span class="badge badge-secondary">Negotiation</span></td>
-                                                    
-                                                    <td>
-                                                        <p>On pipeline of purchasing</p>
-                                                        <p>Next follow up:</p>
-                                                    </td>
-                                                    <td>15/1/2018</td>
-
-                                                    <td>
-                                                        <div>
-                                                            <a href="#" class="btn btn-primary btn-sm">Edit</a>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>4</td>
-                                                    <td>Johnson Inya</td>
-                                                    <td><p>SLC 2020 Past Videos</p><p>9,420,000</p></td>
-                                                    <td><span class="badge badge-danger">Cancel</span></td>
-                                                    
-                                                    <td>
-                                                        <p>On pipeline of purchasing</p>
-                                                        <p>Next follow up:</p>
-                                                    </td>
-                                                    <td>15/1/2018</td>
-
-                                                    <td>
-                                                        <div>
-                                                            <a href="#" class="btn btn-primary btn-sm">Edit</a>
-                                                        </div>
-                                                    </td> 
-                                                </tr>
-                                                <tr>
-                                                    <td>5</td>
-                                                    <td>Vivian Onyinyechi</td>
-                                                    <td><p>SLC 2020 Past Videos</p><p>9,420,000</p></td>
-                                                    <td><span class="badge badge-success">Closed</span></td>
-                                                    
-                                                    <td>
-                                                        <p>On pipeline of purchasing</p>
-                                                        <p>Next follow up:</p>
-                                                    </td>
-                                                    <td>15/1/2018</td>
-
-                                                    <td>
-                                                        <div>
-                                                            <a href="#" class="btn btn-primary btn-sm">Edit</a>
-                                                        </div>
-                                                    </td>
-                                                </tr>
+                                                
                                             </tbody>
                                         </table>
                                     </div>
 
-                                </div>
+                                {/* </div> */}
                             </div>
                         </div>
 
