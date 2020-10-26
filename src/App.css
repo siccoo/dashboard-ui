@@ -2,8 +2,8 @@
   background: #F7F8FA;
   margin: 0;  
   /* padding: auto; */
-  width: 1440px;
-  height: 1510px;
+  width: 1497px;
+  height: 1150px;
 }
 
 /******* Topbar *******/
@@ -363,4 +363,17 @@
 
 .card-columns .card {
   margin-bottom: 30px;
+}
+
+/******* Page Title *******/
+.page-title-box {
+  padding: 20px 0px;
+}
+
+.page-title-box .page-title {
+  font-family: 'Segoe UI';
+  font-size: 36px;
+  margin: 0;
+  line-height: 48px;
+  color: #262626;
 }
