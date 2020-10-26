@@ -234,6 +234,8 @@
   top: 70px;
 }
 
+
+
 .side-menu .waves-effect .waves-ripple {
   background-color: rgba(48, 65, 155, 0.4);
 }
@@ -265,6 +267,7 @@
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   font-family: "Segoe UI", sans-serif;
+  list-style-type: none;
 }
 
 #sidebar-menu > ul > li > a:hover, #sidebar-menu > ul > li > a:focus, #sidebar-menu > ul > li > a:active {
@@ -292,18 +295,13 @@
   background-color: #3345a5;
 }
 
-#sidebar-menu .menu-title {
-  padding: 12px 20px !important;
-  letter-spacing: 1px;
-  font-size: 10px;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #b9c1eb;
-}
-
 #sidebar-menu .submenu li.mm-active > a {
   color: #ffffff;
   background-color: #30419b;
+}
+
+#sidebar-menu ul li {
+  list-style-type: none;
 }
 
 #sidebar-menu .submenu li a {
