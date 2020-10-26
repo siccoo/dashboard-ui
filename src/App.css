@@ -258,6 +258,17 @@
   color: #647787 !important;
 }
 
+#sidebar-menu .waves-effect {
+  font-family: Segoe UI;
+  font-size: 11px;
+  line-height: 15px;
+  color: #647787;
+}
+
+#sidebar-menu .sidebar-icon {
+  /* background: #647787; */
+}
+
 #sidebar-menu > ul > li > a {
   color: #647787;
   display: block;

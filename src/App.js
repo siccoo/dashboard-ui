@@ -9,6 +9,10 @@ import { FaTachometerAlt } from "react-icons/fa";
 import { FaChevronDown } from "react-icons/fa";
 import { BiWalletAlt } from "react-icons/bi";
 import { BiWallet } from "react-icons/bi";
+import { CgRecord } from "react-icons/cg";
+import { RiBuilding4Line } from "react-icons/ri";
+import { RiBuildingLine } from "react-icons/ri";
+import { FiUser } from "react-icons/fi";
 
 function App() {
   return (
@@ -86,7 +90,7 @@ function App() {
                         <li>
                             <a href="javascript:void(0);" className="waves-effect">
                               <i className="mdi mdi-account-circle">
-                              <BiWalletAlt />
+                              <BiWalletAlt className="sidebar-icon" />
                                 </i><span> All Payments <span className="float-right menu-arrow"></span> </span></a>
                             
                         </li>
@@ -94,38 +98,44 @@ function App() {
                         <li>
                             <a href="javascript:void(0);" className="waves-effect">
                               <i className="mdi mdi-chart-line">
-                                <BiWallet />
+                                <BiWallet className="sidebar-icon" />
                                 </i><span> Reconciled Payments <span className="float-right menu-arrow"></span> </span></a>
                         </li>
 
                         <li>
                             <a href="javascript:void(0);" className="waves-effect">
-                            <BiWallet /> <span> Un - Reconcilled Payments</span> 
+                            <BiWallet className="sidebar-icon" /> <span> Un - Reconcilled Payments</span> 
                             </a>
                             
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-account-group"></i> <span> Manual Settlement <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span> </a>
+                            <a href="javascript:void(0);" className="waves-effect">
+                            <CgRecord className="sidebar-icon" /> <span> Manual Settlement  </span> </a>
                             
                         </li>
 
                         <li className="menu-title">Orders</li>
 
                         <li>
-                            <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-package-variant"></i> <span> All Orders <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span> </a>
+                            <a href="javascript:void(0);" className="waves-effect">
+                            <RiBuilding4Line className="sidebar-icon" /> <span> All Orders  </span> </a>
                             
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-account-card-details"></i> <span> Roles <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span> </a>
+                            <a href="javascript:void(0);" className="waves-effect">
+                            <RiBuildingLine className="sidebar-icon" /> <span> Pending Orders </span> </a>
                             
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-orbit"></i> <span> Status <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span> </a>
+                            <a href="javascript:void(0);" className="waves-effect">
+                            <RiBuildingLine className="sidebar-icon"/>   <span> Reconciled Orders </span> </a>
                             
                         </li>
+
+                        <li className="menu-title"> <FiUser className="sidebar-icon" />  Merchant Profile </li>
 
                     </ul>
 
