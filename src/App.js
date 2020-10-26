@@ -250,6 +250,222 @@ function App() {
                                                         </div>
                                                     </td>
                                                 </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        {/* <p>Paid completely for Academy training</p> */}
+                                                        <p>Apple Mac Book 15” 250 SSD 12GB</p>
+                                                    </td>
+                                                    <td>
+                                                      $73430
+                                                    </td>
+                                                    <td>
+                                                      <span className="green">Invoice sent</span>
+                                                    </td>
+                                                    <td>
+                                                      12:30
+                                                    </td>
+                                                    
+                                                    <td>
+                                                        
+                                                    </td>
+
+                                                    <td>
+                                                        <div>
+                                                          <FaChevronDown className="payment-table" />
+                                                            {/* <a href="#" className="btn btn-primary btn-sm">Edit</a> */}
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        {/* <p>Paid completely for Academy training</p> */}
+                                                        <p>Apple Mac Book 15” 250 SSD 12GB</p>
+                                                    </td>
+                                                    <td>
+                                                      $73430
+                                                    </td>
+                                                    <td>
+                                                      <span className="green">Invoice sent</span>
+                                                    </td>
+                                                    <td>
+                                                      12:30
+                                                    </td>
+                                                    
+                                                    <td>
+                                                        
+                                                    </td>
+
+                                                    <td>
+                                                        <div>
+                                                          <FaChevronDown className="payment-table" />
+                                                            {/* <a href="#" className="btn btn-primary btn-sm">Edit</a> */}
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        {/* <p>Paid completely for Academy training</p> */}
+                                                        <p>Apple Mac Book 15” 250 SSD 12GB</p>
+                                                    </td>
+                                                    <td>
+                                                      $73430
+                                                    </td>
+                                                    <td>
+                                                      <span className="green">Invoice sent</span>
+                                                    </td>
+                                                    <td>
+                                                      12:30
+                                                    </td>
+                                                    
+                                                    <td>
+                                                        
+                                                    </td>
+
+                                                    <td>
+                                                        <div>
+                                                          <FaChevronDown className="payment-table" />
+                                                            {/* <a href="#" className="btn btn-primary btn-sm">Edit</a> */}
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        {/* <p>Paid completely for Academy training</p> */}
+                                                        <p>Apple Mac Book 15” 250 SSD 12GB</p>
+                                                    </td>
+                                                    <td>
+                                                      $73430
+                                                    </td>
+                                                    <td>
+                                                      <span className="green">Invoice sent</span>
+                                                    </td>
+                                                    <td>
+                                                      12:30
+                                                    </td>
+                                                    
+                                                    <td>
+                                                        
+                                                    </td>
+
+                                                    <td>
+                                                        <div>
+                                                          <FaChevronDown className="payment-table" />
+                                                            {/* <a href="#" className="btn btn-primary btn-sm">Edit</a> */}
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        {/* <p>Paid completely for Academy training</p> */}
+                                                        <p>Apple Mac Book 15” 250 SSD 12GB</p>
+                                                    </td>
+                                                    <td>
+                                                      $73430
+                                                    </td>
+                                                    <td>
+                                                      <span className="green">Invoice sent</span>
+                                                    </td>
+                                                    <td>
+                                                      12:30
+                                                    </td>
+                                                    
+                                                    <td>
+                                                        
+                                                    </td>
+
+                                                    <td>
+                                                        <div>
+                                                          <FaChevronDown className="payment-table" />
+                                                            {/* <a href="#" className="btn btn-primary btn-sm">Edit</a> */}
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        {/* <p>Paid completely for Academy training</p> */}
+                                                        <p>Apple Mac Book 15” 250 SSD 12GB</p>
+                                                    </td>
+                                                    <td>
+                                                      $73430
+                                                    </td>
+                                                    <td>
+                                                      <span className="green">Invoice sent</span>
+                                                    </td>
+                                                    <td>
+                                                      12:30
+                                                    </td>
+                                                    
+                                                    <td>
+                                                        
+                                                    </td>
+
+                                                    <td>
+                                                        <div>
+                                                          <FaChevronDown className="payment-table" />
+                                                            {/* <a href="#" className="btn btn-primary btn-sm">Edit</a> */}
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        {/* <p>Paid completely for Academy training</p> */}
+                                                        <p>Apple Mac Book 15” 250 SSD 12GB</p>
+                                                    </td>
+                                                    <td>
+                                                      $73430
+                                                    </td>
+                                                    <td>
+                                                      <span className="green">Invoice sent</span>
+                                                    </td>
+                                                    <td>
+                                                      12:30
+                                                    </td>
+                                                    
+                                                    <td>
+                                                        
+                                                    </td>
+
+                                                    <td>
+                                                        <div>
+                                                          <FaChevronDown className="payment-table" />
+                                                            {/* <a href="#" className="btn btn-primary btn-sm">Edit</a> */}
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        {/* <p>Paid completely for Academy training</p> */}
+                                                        <p>Apple Mac Book 15” 250 SSD 12GB</p>
+                                                    </td>
+                                                    <td>
+                                                      $73430
+                                                    </td>
+                                                    <td>
+                                                      <span className="green">Invoice sent</span>
+                                                    </td>
+                                                    <td>
+                                                      12:30
+                                                    </td>
+                                                    
+                                                    <td>
+                                                        
+                                                    </td>
+
+                                                    <td>
+                                                        <div>
+                                                          <FaChevronDown className="payment-table" />
+                                                            {/* <a href="#" className="btn btn-primary btn-sm">Edit</a> */}
+                                                        </div>
+                                                    </td>
+                                                </tr>
                                                 
                                             </tbody>
                                         </table>
