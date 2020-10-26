@@ -340,6 +340,18 @@
   padding-left: 70px;
 }
 
+.col-sm-5 {
+  -ms-flex: 0 0 41.666667%;
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+
+.col-sm-7 {
+  -ms-flex: 0 0 58.333333%;
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+
 /* CONTENT */
 /******* Content Page *******/
 .content-page {

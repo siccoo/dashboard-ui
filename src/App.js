@@ -498,6 +498,32 @@ function App() {
                     </div>
                     {/* <!-- END ROW --> */}
 
+                    <div className="row">
+                      <div className="col-sm-5">
+                        <div className="dataTables_info" id="example2_info" role="status" aria-live="polite">
+                            Showing 1 to 10 of 500 entries
+                        </div>
+                      </div>
+                      <div className="col-sm-7">
+                        <div className="dataTables_paginate paging_simple_numbers" id="example2_paginate">
+                          <ul className="pagination">
+                            <li className="paginate_button previous disabled" id="example2_previous">
+                              <a href="#" aria-controls="example2" data-dt-idx="0" tabindex="0">Previous</a>
+                            </li>
+                            <li className="paginate_button previous disabled" id="example2_previous">
+                              <a href="#" aria-controls="example2" data-dt-idx="0" tabindex="0">1</a>
+                            </li>
+                            <li className="paginate_button previous disabled" id="example2_previous">
+                              <a href="#" aria-controls="example2" data-dt-idx="0" tabindex="0">2</a>
+                            </li>
+                            <li className="paginate_button next disabled" id="example2_next">
+                              <a href="#" aria-controls="example2" data-dt-idx="0" tabindex="1">Next</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>  
+                    </div>
+
             </div>
           </div>
         </div>
