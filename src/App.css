@@ -111,7 +111,6 @@
   margin-left: 45px;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-family: "Poppins", sans-serif;
 }
 
 .notification-list .notify-item .notify-details span {
@@ -173,9 +172,9 @@
   border: 1px solid #f0f4f7;
   font-size: 12px;
   height: 34px;
-  padding-left: 18px;
-  padding-right: 40px;
-  margin-right: 16px;
+    /* padding-left: 18px;
+    padding-right: 40px; */
+  /* margin-right: 16px; */
   font-family: "Segoe UI";
   /* background: #f0f4f7; */
   -webkit-box-shadow: none;
@@ -185,6 +184,13 @@
   border: none;
   line-height: 16px;
   color: #979797;
+}
+
+.icons {
+  color: #0E1D25;
+  left: 20.56%;
+  float: left;
+  /* position: absolute; */
 }
 
 .app-search button {
@@ -206,4 +212,113 @@
   width: 60px;
   background-color: #ffffff;
   font-size: 24px;
+}
+
+/******* Sidemenu *******/
+.side-menu {
+  width: 240px;
+  z-index: 10;
+  background: #fff;
+  bottom: 0;
+  margin-top: 0;
+  padding-bottom: 30px;
+  position: fixed;
+  top: 70px;
+}
+
+.side-menu .waves-effect .waves-ripple {
+  background-color: rgba(48, 65, 155, 0.4);
+}
+
+#sidebar-menu {
+  padding-top: 10px;
+}
+
+#sidebar-menu > ul > li.mm-active > a > span > .menu-arrow i {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#sidebar-menu .menu-title {
+  padding: 22px 20px;
+  letter-spacing: 1px;
+  font-size: 11px;
+  line-height: 15px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #647787 !important;
+}
+
+#sidebar-menu > ul > li > a {
+  color: #647787;
+  display: block;
+  padding: 13px 20px;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  font-family: "Segoe UI", sans-serif;
+}
+
+#sidebar-menu > ul > li > a:hover, #sidebar-menu > ul > li > a:focus, #sidebar-menu > ul > li > a:active {
+  color: #647787;
+  text-decoration: none;
+}
+
+#sidebar-menu > ul > li > a > span {
+  margin-left: 7px;
+}
+
+#sidebar-menu > ul > li > a i {
+  line-height: 1;
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#sidebar-menu > ul > li > a .badge {
+  margin-top: 3px;
+}
+
+#sidebar-menu > ul > li > a.mm-active {
+  color: #ffffff !important;
+  background-color: #3345a5;
+}
+
+#sidebar-menu .menu-title {
+  padding: 12px 20px !important;
+  letter-spacing: 1px;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #b9c1eb;
+}
+
+#sidebar-menu .submenu li.mm-active > a {
+  color: #ffffff;
+  background-color: #30419b;
+}
+
+#sidebar-menu .submenu li a {
+  padding: 8px 20px 8px 10px;
+  color: #7e8cda;
+  display: block;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#sidebar-menu .submenu li a:focus {
+  background-color: left-bar;
+}
+
+#sidebar-menu .submenu li a:hover {
+  background-color: #30419b;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#sidebar-menu .submenu > li > a {
+  padding-left: 50px;
+}
+
+#sidebar-menu .submenu > li .submenu > li > a {
+  padding-left: 70px;
 }

@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 
 import './App.css';
 
+import { IoIosSearch } from "react-icons/io";
+import { FaTachometerAlt } from "react-icons/fa"
+
 function App() {
   return (
     <div className="App">
@@ -45,7 +48,10 @@ function App() {
                         <form role="search" className="app-search">
                             <div className="form-group mb-0">
                                 <input type="text" className="form-control" placeholder="Search.." />
-                                <button type="submit"><i className="fa fa-search"></i></button>
+                                <button type="submit">
+                                  {/* <i className="fa fa-search"></i> */}
+                                  <IoIosSearch className="icons" />
+                                </button>
                             </div>
                         </form>
                     </li>
@@ -67,74 +73,48 @@ function App() {
                         <li className="menu-title">Menu</li>
                         <li>
                             <a href="index.html" className="waves-effect">
-                                <i className="icon-accelerator"></i><span> Dashboard </span>
+                            <FaTachometerAlt className="R-icon" />
+                            <span> Dashboard </span>
                             </a>
                         </li>
 
                         <li className="menu-title">Payments</li>
 
                         <li>
-                            <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-account-circle"></i><span> Leads <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span></a>
-                            <ul className="submenu">
-                                <li><a href="mylead.html">My Lead</a></li>
-                                <li><a href="addlead.html">Add Lead</a></li>
-                            </ul>
+                            <a href="javascript:void(0);" className="waves-effect">
+                              <i className="mdi mdi-account-circle"></i><span> All Payments <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span></a>
+                            
                         </li>
 
                         <li>
                             <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-chart-line"></i><span> My Tasks <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span></a>
-                            <ul className="submenu">
-                                <li><a href="deadline.html">Deadlines</a></li>
-                                <li><a href="missed.html">Missed</a></li>
-                                <li><a href="closed.html">Closed</a></li>
-                            </ul>
                         </li>
 
                         <li>
                             <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-clipboard-check"></i> <span> Deals <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span> </a>
-                            <ul className="submenu">
-                                <li><a href="#"> Open
-                                </a></li>
-                                <li><a href="#">Closed</a></li>
-                                <li><a href="#">Deadline</a></li>
-                            </ul>
+                            
                         </li>
 
                         <li>
                             <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-account-group"></i> <span> Users <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span> </a>
-                            <ul className="submenu">
-                                <li><a href="myteam.html">My Team List</a></li>
-                                <li><a href="alllead.html">All Leads</a></li>
-                                <li><a href="viewteam.html">View Team Activities</a></li>
-                                <li><a href="addrep.html">Add Sales Rep</a></li>
-                                <li><a href="viewexpectation.html">View Expectations</a></li>
-                            </ul>
+                            
                         </li>
 
                         <li className="menu-title">Orders</li>
 
                         <li>
                             <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-package-variant"></i> <span> Products <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span> </a>
-                            <ul className="submenu">
-                                <li><a href="addproduct.html">Add Product(s)</a></li>
-                                <li><a href="manageprod.html">Manage Product(s)</a></li>
-                            </ul>
+                            
                         </li>
 
                         <li>
                             <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-account-card-details"></i> <span> Roles <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span> </a>
-                            <ul className="submenu">
-                                <li><a href="addrole.html">Add Role</a></li>
-                                <li><a href="managerole.html">Manage Role</a></li>
-                            </ul>
+                            
                         </li>
 
                         <li>
                             <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-orbit"></i> <span> Status <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span> </a>
-                            <ul className="submenu">
-                                <li><a href="addstat.html">Add Status</a></li>
-                                <li><a href="managestat.html">Manage Status</a></li>
-                            </ul>
+                            
                         </li>
 
                     </ul>
