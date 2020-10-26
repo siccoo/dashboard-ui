@@ -5,9 +5,10 @@ import { Link } from "react-router-dom";
 import './App.css';
 
 import { IoIosSearch } from "react-icons/io";
-import { FaTachometerAlt } from "react-icons/fa"
-import { FaChevronDown } from "react-icons/fa"
-
+import { FaTachometerAlt } from "react-icons/fa";
+import { FaChevronDown } from "react-icons/fa";
+import { BiWalletAlt } from "react-icons/bi";
+import { BiWallet } from "react-icons/bi";
 
 function App() {
   return (
@@ -84,16 +85,23 @@ function App() {
 
                         <li>
                             <a href="javascript:void(0);" className="waves-effect">
-                              <i className="mdi mdi-account-circle"></i><span> All Payments <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span></a>
+                              <i className="mdi mdi-account-circle">
+                              <BiWalletAlt />
+                                </i><span> All Payments <span className="float-right menu-arrow"></span> </span></a>
                             
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-chart-line"></i><span> Reconciled Payments <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span></a>
+                            <a href="javascript:void(0);" className="waves-effect">
+                              <i className="mdi mdi-chart-line">
+                                <BiWallet />
+                                </i><span> Reconciled Payments <span className="float-right menu-arrow"></span> </span></a>
                         </li>
 
                         <li>
-                            <a href="javascript:void(0);" className="waves-effect"><i className="mdi mdi-clipboard-check"></i> <span> Un - Reconcilled Payments <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span> </a>
+                            <a href="javascript:void(0);" className="waves-effect">
+                            <BiWallet /> <span> Un - Reconcilled Payments</span> 
+                            </a>
                             
                         </li>
 
@@ -169,7 +177,9 @@ function App() {
                   <div className="card">
                       <div className="card-heading p-4">
                           <div className="mini-stat-icon float-right">
-                              <i className="mdi mdi-phone-missed bg-warning text-white"></i>
+                              <i className="mdi mdi-phone-missed bg-warning text-white">
+
+                              </i>
                           </div>
                           <div>
                               <h5 className="font-16">Total Transaction Volume</h5>
