@@ -128,6 +128,72 @@ function App() {
 
         </div>
         {/* <!-- Left Sidebar End --> */}
+
+
+        <div className="content-page">
+          <div className="content">
+            <div className="container-fluid">
+            <div className="row">
+          <div className="col-sm-6 col-xl-3">
+              <div className="card">
+                  <div className="card-heading p-4">
+                      <div className="mini-stat-icon float-right">
+                          <i className="mdi mdi-account-plus bg-primary  text-white"></i>
+                      </div>
+                      <div>
+                          <h5 className="font-16">Daily Transaction Volume</h5>
+                      </div>
+                      <p className="text-muted mt-2 mb-0">2,342</p>
+                  </div>
+              </div>
+          </div>
+
+          <div className="col-sm-6 col-xl-3">
+              <div className="card">
+                  <div className="card-heading p-4">
+                      <div className="mini-stat-icon float-right">
+                          <i className="mdi mdi-thumb-up bg-success text-white"></i>
+                      </div>
+                      <div>
+                          <h5 className="font-16">Daily Transaction Value</h5>
+                      </div>
+                      
+                      <p className="text-muted mt-2 mb-0">N4,000,000</p>
+                  </div>
+              </div>
+          </div>
+
+          <div className="col-sm-6 col-xl-3">
+              <div className="card">
+                  <div className="card-heading p-4">
+                      <div className="mini-stat-icon float-right">
+                          <i className="mdi mdi-phone-missed bg-warning text-white"></i>
+                      </div>
+                      <div>
+                          <h5 className="font-16">Total Transaction Volume</h5>
+                      </div>
+                      <p className="text-muted mt-2 mb-0">452,000</p>
+                  </div>
+              </div>
+          </div>
+
+          <div className="col-sm-6 col-xl-3">
+              <div className="card">
+                  <div className="card-heading p-4">
+                      <div className="mini-stat-icon float-right">
+                          <i className="mdi mdi-calendar-check bg-danger text-white"></i>
+                      </div>
+                      <div>
+                          <h5 className="font-16">Total Transaction Value</h5>
+                      </div>
+                      <p className="text-muted mt-2 mb-0">N4,000,000</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
